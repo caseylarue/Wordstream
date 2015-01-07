@@ -47,11 +47,16 @@
 }
 
 
-/*Content*/
+/*****Content*/
 
 #content {
      background-color: green;
      height: 800px;
+}
+
+.contact, .home-button {
+     display: inline-block;
+     vertical-align: top;
 }
 
 
@@ -80,3 +85,7 @@
     height: 300px;
     background-repeat: no-repeat;
 }
+
+/*MAIN*/
+
+
