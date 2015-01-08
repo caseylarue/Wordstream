@@ -109,23 +109,30 @@ ul li:last-child {
 #side-bar {
      background-color: yellow;
      width: 250px;
+     height: 500px;
      margin-left: 10px;
+
 }
 
 #side1 {
      margin-top: 10px;
      margin-bottom: 10px;
+     text-align: center;
 }
 
 #side2 {
      margin-top: 10px;
      margin-bottom: 10px;
+     text-align: center;
 }
+
+/*BUTTON*/
 
 .button1 {
      border-radius: 5px;
      width: 200px;
      margin: 2px;
+     text-align: center;
 }
 
 
@@ -141,16 +148,37 @@ ul li:last-child {
      text-transform: uppercase;
 }
 
+#no-cc {
+     background-color: #ffffff;
+     font-size: 15px;
+}
+
 .line {
      border: 1px solid black;
 }
 
-.ad {
+/*LINE*/
+
+#line1 {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     border: 1px solid black;
+}
+
+/*AD*/
+
+#ad {
     background-image: url("left_content_ad.png"); 
     width: 300px;
     height: 300px;
     background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 10px;
 }
+
+
+
+
 
 /*MAIN*/
 
