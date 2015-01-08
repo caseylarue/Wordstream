@@ -10,25 +10,17 @@
 }
 
 #container {
-     width: 980px;
+     width: 970px;
      margin: 0 auto;
      padding-top: 20px;
 
 }
 
-/*HEADER*/
+/***********************HEADER*/
 
 #header {
      height: 150px;
-
 }
-
-#logo, #login, #header h1 {
-     vertical-align: top;
-     display: inline-block;
-     width: 100px;
-}
-
 
 #header img {
      margin-top:80px;
@@ -36,50 +28,42 @@
 
 #header h1 {
    margin-top:90px;  
-
 }
 
-#nav {
+
+#header .logo, .nav, .login {
+     display: inline-block;
+     vertical-align: top;
+}
+
+
+#header .nav {
      background-color: #f6f8f7;
      list-style-type: none;
      text-align: right;
-     display: inline-block;
      margin-left: 200px;
-     vertical-align: top;
-}
-
-/*#header #nav ul {
-     display: inline;
      padding: 10px;
-     text-align: right;
-}
-*/
-
-ul {
-     display: inline-block;
-     padding: 10px;
-     vertical-align: top;
 }
 
-ul li {
+
+#header ul li {
      display: inline-block;
-/*     vertical-align: top;*/
      padding: 10px;
      text-align: right;
      border-right: 2px solid black;
 }
 
-ul li:last-child {
+#header ul li:last-child {
      border: 0;
 }
 
-#login {
+#header .login {
      background-color: #f6f8f7;
 }
 
-/*BANNER*/
+/**************************BANNER*/
 
-.banner {
+#banner {
      padding-top: 10px;
      padding-left: 10px;
      padding-bottom: 10px;
@@ -90,93 +74,98 @@ ul li:last-child {
 }
 
 
-/*****Content*/
+/************************Content*/
 
 #content {
-     background-color: green;
-     height: 500px;
+/*     background-color: green;*/
+     height: 800px;
 }
+
+
+
+
+/************************Side-bar*/
 
 #side-bar {
      display: inline-block;
      vertical-align: top;
-     width: 400px;
-}
-
-
-/*Side-bar*/
-
-#side-bar {
-     background-color: yellow;
      width: 250px;
-     height: 500px;
+     height: 680px;
      margin-left: 10px;
 
 }
 
-#side1 {
-     margin-top: 10px;
+#side-bar .side1 {
+     margin-top: 50px;
      margin-bottom: 10px;
-     text-align: center;
+     margin-left: 10px;
+
 }
 
-#side2 {
+#side-bar .side2 {
      margin-top: 10px;
      margin-bottom: 10px;
-     text-align: center;
+     margin-left: 10px;
 }
 
-/*BUTTON*/
+/******************************SIDE-BUTTONS*/
 
-.button1 {
-     border-radius: 5px;
+#side-bar .side-button {
      width: 200px;
-     margin: 2px;
-     margin-left: 20px;
+     margin: 10px;
 }
 
 
-#schedule-demo {
+
+#side-bar .side-button .schedule-demo {
+     border-radius: 5px;
      background-color: #1f7ebe;
      color: white;
-     text-transform: uppercase;  
+     text-transform: uppercase; 
+     margin: 5px; 
+     padding: 2px;
+     width: 200px;
 }
 
-#free-trial {
+#side-bar .side-button .free-trial {
      background-color: orange;
      color: white;
      text-transform: uppercase;
+     margin: 5px; 
+     padding: 2px;
+     width: 200px;
 }
 
-#no-cc {
+
+#side-bar .side-button .no-cc {
      background-color: #ffffff;
      font-size: 15px;
+     margin: 5px; 
+     padding: 2px;
+     width: 200px;
 }
 
-.line {
+
+/****************************LINE*/
+#side-bar .line1 {
      border: 1px solid black;
+     width: 250px;
 }
 
-/*LINE*/
 
-#line1 {
-     margin-top: 10px;
-     margin-bottom: 10px;
-     border: 1px solid black;
-}
 
-/*AD*/
+/******************************AD*/
 
 #ad {
     background-image: url("left_content_ad.png"); 
-    width: 300px;
-    height: 400px;
+    height: 600px;
     background-repeat: no-repeat;
     margin-top: 30px;
     margin-left: 10px;
+    background-size: 200px 350px;
 }
 
-#ad-p1 {
+#ad .ad-p1 {
      display: inline-block;
      margin-left: 10px;
      margin-bottom: 10px;
@@ -185,7 +174,7 @@ ul li:last-child {
      height: 50px;
 }
 
-#ad-p2 {
+#ad .ad-p2 {
      display: inline-block;
      margin-left: 10px;
      margin-bottom: 10px;
@@ -194,13 +183,16 @@ ul li:last-child {
      height: 50px;
 }
 
-#ad-p3 {
+#ad .ad-p3 {
      display: inline-block;
      margin-left: 10px;
      margin-bottom: 10px;
      font-size: 15px;
      width: 170px;
      height: 50px;
+     background-color: #1f7ebe;
+     color: white;
+     border-radius: 30px;
 }
 
 
@@ -209,31 +201,90 @@ ul li:last-child {
 
 #main {
      display: inline-block;
-     width: 650px;
+     width: 680px;
      margin-left: 20px;
-     margin-top: 10px;
+     margin-top: 50px;
 }
 
 
-#home-button {
+#main .home-button {
      display: inline-block;
      vertical-align: top;
-
 }
 
-#contact {
+#main .contact {
+     display: inline-block;
      vertical-align: top;
      margin-left: 400px;
+     margin-bottom: 5px;
 }
 
 #contact img, p {
      display: inline-block;
 }
 
-#main-line {
+#main .main-line {
      border: 1px solid black;
      display: block;
 }
 
+/*MAIN LOWER HALF*/
 
+#main .main-lower {
+     margin-top: 10px;
+     margin-left: 20px;
+}
 
+#main .main-lower .p1 {
+     color: #1d7abb;
+     font-size: 20px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+#main .main-lower .p2 {
+     margin-top: 10px;
+     margin-bottom: 10px; 
+}
+
+#main .main-lower li {
+     margin-top: 10px;
+     margin-bottom: 10px; 
+}
+
+#main .main-lower .p3 {
+     margin-top: 10px;
+     margin-bottom: 10px; 
+}
+
+/*Get Started AD***************/
+#main .get-started {
+     margin-top: 10px;
+     margin-bottom: 10px; 
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border: 2px solid gray;
+     background-image: url("content_ad.png"); 
+     background-repeat: no-repeat;
+}
+
+#main .get-started .get-started1 {
+     margin-left: 70px;
+}
+
+#main .get-started .get-started1 .get1 {
+     margin-bottom: 5px;
+     font-weight: bold;
+     color: blue;
+}
+
+#main .get-started .get-started1 button {
+     margin-top: 5px;
+}
+
+/****************/
+
+#main .main-lower .p4 {
+     color: blue;
+     margin-bottom: 10px;
+}
