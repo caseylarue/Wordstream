@@ -20,30 +20,70 @@
 
 #header {
      height: 150px;
-     background-color: teal;
+
 }
 
-#header .logo {
-     margin: 20px;
-     background-color: #FF3399;
+#logo, #login, #header h1 {
+     vertical-align: top;
      display: inline-block;
+     width: 100px;
 }
 
 
-#header .nav {
-     background-color: #9999FF;
-     list-style: none;
+#header img {
+     margin-top:80px;
+}
+
+#header h1 {
+   margin-top:90px;  
+
+}
+
+#header #nav {
+     background-color: #D3D3D3;
+     list-style-type: none;
      text-align: right;
      display: inline-block;
+     margin-left: 200px;
+     margin-top: 100px;
+     vertical-align: top;
 }
 
-#header .nav li {
+/*#header #nav ul {
+     display: inline;
+     padding: 10px;
+     text-align: right;
+}
+*/
+
+ul {
      display: inline-block;
      padding: 10px;
+     vertical-align: top;
 }
 
-#header .login {
+ul li {
      display: inline-block;
+/*     vertical-align: top;*/
+     padding: 10px;
+     text-align: right;
+     border-right: 2px solid black;
+}
+
+ul li:last-child {
+     border: 0;
+}
+
+/*BANNER*/
+
+.banner {
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-bottom: 10px;
+     height: 25px;
+     background-color: blue;
+     color: white;
+     font-size: 24px;
 }
 
 
