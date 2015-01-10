@@ -161,12 +161,10 @@
 
 
 #side-bar .side-button .schedule-demo {
-     background-color: #1f7ebe;
      background: linear-gradient(#4abdfa, #1f7ebe);
 }
 
 #side-bar .side-button .free-trial {
-     background-color: #e45e08;
      background: linear-gradient(#ffaf4b, #e45e08);
 }
 
@@ -193,30 +191,29 @@
     background-repeat: no-repeat;
     margin-top: 30px;
     margin-left: 10px;
-    background-size: 225px 350px;
+    background-size: 250px 350px;
 }
 
 #ad .ad-p1 {
      display: inline-block;
-     margin-left: 5px;
+     margin-left: 10px;
      margin-bottom: 30px;
      margin-top: 30px;
-     width: 170px;
+     width: 220px;
      height: 50px;
-}
-
-#ad .ad-p1 span {
      color: #1f7ebe;
      font-weight: bold;
+     font-size: 20px;
 }
+
 
 #ad .ad-p2 {
      display: inline-block;
      margin-left: 10px;
      margin-bottom: 10px;
      font-size: 12px;
-     width: 170px;
-     height: 50px;
+     width: 200px;
+     height: 100px;
 }
 
 #ad .ad-p3 {
@@ -239,11 +236,11 @@
      display: inline-block;
      width: 680px;
      margin-left: 20px;
-     margin-top: 50px;
+     margin-top: 20px;
 }
 
-#main #main-lower {
-
+#main #main-upper {
+     height: 75px;
 }
 
 #main .home-button {
@@ -254,8 +251,12 @@
 #main .contact {
      display: inline-block;
      vertical-align: top;
-     margin-left: 350px;
+     margin-left: 300px;
      margin-bottom: 5px;
+}
+
+#main .contact * {
+     margin: 5px;
 }
 
 #main .contact span{
@@ -274,7 +275,7 @@
 /*MAIN LOWER HALF*/
 
 #main .main-lower {
-     margin-top: 10px;
+     margin-top: 30px;
      margin-left: 20px;
 }
 
@@ -323,6 +324,11 @@
 
 #main .get-started .get-started1 button {
      margin-top: 5px;
+     background: linear-gradient(#bed261, #9ab635);
+     padding: 5px;
+     border-radius: 5px;
+     border: 3px solid #9ab635;
+     color: white;
 }
 
 /****************/
