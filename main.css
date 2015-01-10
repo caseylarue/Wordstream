@@ -21,7 +21,6 @@
 
 #header {
      height: 150px;
-     background-color: DarkGoldenRod;
 }
 
 #header img {
@@ -53,6 +52,7 @@
 #header .nav, .login {
      display: inline-block;
      vertical-align: top;
+     margin-top: 5px;
 }
 
 
@@ -60,10 +60,11 @@
      background-color: #f6f8f7;
      list-style-type: none;
      text-align: right;
-     margin-left: 150px;
-     padding: 10px;
+     margin-left: 125px;
+     padding: 5px;
      border-radius: 10px;
      color: #bbbbb3;
+     border: 1px dotted #F0F8FF;
 }
 
 
@@ -71,7 +72,7 @@
      display: inline-block;
      padding: 10px;
      text-align: right;
-     border-right: 2px solid black;
+     border-right: 2px solid #bbbbb3;
 }
 
 #header ul li:last-child {
@@ -83,8 +84,6 @@
      border-radius: 10px;
      padding: 5px 10px;
      color: white;
-     margin-top: 5px;
-
 }
 
 /**************************BANNER*/
@@ -125,50 +124,56 @@
      margin-top: 50px;
      margin-bottom: 10px;
      margin-left: 10px;
-
+     font-size: 20px;
+     color: #1f7ebe;
+     font-weight: bold;
 }
 
 #side-bar .side2 {
      margin-top: 10px;
+     margin-left: 10px;
+     color: #e45e08;
+}
+
+#side-bar .side3 {
      margin-bottom: 10px;
      margin-left: 10px;
+}
+
+#side-bar .side3 span {
+      color: #1f7ebe;
 }
 
 /******************************SIDE-BUTTONS*/
 
 #side-bar .side-button {
-     width: 200px;
      margin: 10px;
 }
 
-
-
-#side-bar .side-button .schedule-demo {
+#side-bar .schedule-demo, .free-trial, .no-cc {
      border-radius: 5px;
-     background-color: #1f7ebe;
      color: white;
      text-transform: uppercase; 
      margin: 5px; 
-     padding: 2px;
+     padding: 5px;
      width: 200px;
+}
+
+
+#side-bar .side-button .schedule-demo {
+     background-color: #1f7ebe;
+     background: linear-gradient(#4abdfa, #1f7ebe);
 }
 
 #side-bar .side-button .free-trial {
-     background-color: orange;
-     color: white;
-     text-transform: uppercase;
-     margin: 5px; 
-     padding: 2px;
-     width: 200px;
+     background-color: #e45e08;
+     background: linear-gradient(#ffaf4b, #e45e08);
 }
-
 
 #side-bar .side-button .no-cc {
      background-color: #ffffff;
-     font-size: 15px;
-     margin: 5px; 
-     padding: 2px;
-     width: 200px;
+     font-size: 12px;
+     color: black;
 }
 
 
@@ -183,21 +188,26 @@
 /******************************AD*/
 
 #ad {
-    background-image: url("left_content_ad.png"); 
+    background-image: url("left_content_ad.png"), linear-gradient(#808080, #E8E8E8); 
     height: 600px;
     background-repeat: no-repeat;
     margin-top: 30px;
     margin-left: 10px;
-    background-size: 200px 350px;
+    background-size: 225px 350px;
 }
 
 #ad .ad-p1 {
      display: inline-block;
-     margin-left: 10px;
-     margin-bottom: 10px;
+     margin-left: 5px;
+     margin-bottom: 30px;
      margin-top: 30px;
      width: 170px;
      height: 50px;
+}
+
+#ad .ad-p1 span {
+     color: #1f7ebe;
+     font-weight: bold;
 }
 
 #ad .ad-p2 {
@@ -232,6 +242,9 @@
      margin-top: 50px;
 }
 
+#main #main-lower {
+
+}
 
 #main .home-button {
      display: inline-block;
@@ -241,8 +254,12 @@
 #main .contact {
      display: inline-block;
      vertical-align: top;
-     margin-left: 400px;
+     margin-left: 350px;
      margin-bottom: 5px;
+}
+
+#main .contact span{
+     color: #1f7ebe;
 }
 
 #contact img, p {
